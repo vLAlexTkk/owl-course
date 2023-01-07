@@ -30,15 +30,27 @@ module.exports = {
       white: {
         DEFAULT: "#FFF",
         100: "#F9F9F9",
+        200: "#E5E5E5",
+        300: "#A4A4A4",
       },
       black: {
-        DEFAULT: "#212121"
+        DEFAULT: "#212121",
+        100: "#787D85",
       },
       primary: {
-       
+        DEFAULT: "#7653FC",
+        100: "#B3C0D9"
       },
       grey: {
-        DEFAULT: "#9E9E9E"
+        DEFAULT: "#9E9E9E",
+        100: "#C8F8E4",
+      },
+      green: {
+        DEFAULT: "#1DC37E",
+      },
+      orange: {
+        DEFAULT: "#FC836D",
+        100: "#DE0000",
       },
     },
     fontSize: {
@@ -143,6 +155,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ["'Roboto'", ...defaultTheme.fontFamily.sans],
+        jost: ["'Jost'", ...defaultTheme.fontFamily.sans],
       },
       spacing: {
         4.5: "1.125rem",

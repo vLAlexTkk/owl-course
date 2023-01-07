@@ -25,7 +25,8 @@
       "@public/*": ["public/*"],
       "@icons/*": ["public/icons/*"],
       "@images/*": ["public/images/*"],
-      "@fonts/*": ["public/fonts/*"]
+      "@fonts/*": ["public/fonts/*"],
+      "@ui/*": ["src/components/ui/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

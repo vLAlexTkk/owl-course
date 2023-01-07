@@ -1,11 +1,10 @@
-import { useState } from "react";
+import { Button } from "@ui/button";
+import { Title } from "@ui/title";
 
 export const Header: React.FC = () => {
-  const [openMenu, setOpenMenu] = useState(false);
-
   return (
     <>
-      <div></div>
+     
     </>
   );
 };
